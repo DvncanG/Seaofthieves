@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Pirates;
+    src: url(../assets/fonts/piratas.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: Pirates;
+}
+body{
+    width: 1500px;
+    margin: 0 auto;
+   background-color: black;
+}
+.main{
+    width: 1500px;
+    height: 100%;
+}
+.visor{
+    margin: 0;
+    position: relative;
+    
+}
+.visor__video{
+width: 100%;
+position: absolute;
+}
+.visor__form{
+    position: absolute;
+    top: 25px;
+    left: 37%;
+    background-color: white;
+    padding: 60px;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.form__label{
+    font-size: 1.5rem;
+}
+.footer__formulario{
+    width: 1500;
+    position: relative;
+    top: 800px;
+}

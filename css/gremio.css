@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Pirates;
+    src: url(../assets/fonts/piratas.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: Pirates;
+}
+body{
+    width: 1500px;
+    margin: 0 auto;
+   background-color: black;
+}
+.main{
+    width: 100%;
+    background-image: url(../assets/images/gremio/fondo_de_carta.jpg);
+    background-size: cover;
+}
+.main__primero{
+    width: 100%;
+    display: flex;
+}
+.main__segundo{
+    width: 100%;
+    display: flex;
+}
+.main__tercero{
+    width: 100%;
+    display: flex;
+}
+.main__cuarto{
+    width: 100%;
+    display: flex;
+}
+.div__izquierda{
+    width: 30%;
+}
+.div__derecha{
+    width: 70%;
+}
+.div__img{
+    width: 100%;
+}
+.div__derechaImg{
+    background-image: url(../assets/images/cartaPirata.png);
+    background-size: cover;
+}
+.div__pderecha{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+    text-align: justify;
+    padding: 20px;
+    font-size: 2rem;
+}
+.div__pizquierda{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 12%;
+    font-size: 2rem;
+    text-align: justify;
+    padding: 22px;
+}
+.main__tabla{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.tabla{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 27%;
+    margin-top: 2%;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.tabla__cabeza{
+    background-color: rgb(104, 224, 184);
+    font-size: 1.5rem;
+}
+.tabla__cuerpo{
+    background-color: whitesmoke;
+}

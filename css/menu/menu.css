@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.header--div__sizeIMG{
+    width: 200px;
+}
+.Div__IMG{
+    width: 100%;
+    
+}
+.nav--ul{
+display: flex;
+list-style: none;
+font-size: 2rem; 
+
+}
+.nav--ul__li{
+ padding: 10px;
+}
+.ul--li_link{ 
+    text-decoration: none;
+    color: white;
+}
+.ul--li_link:hover{
+    color: rgb(104, 224, 184);
+}
+.header--div__login{
+    width: 200px;
+
+}
+.div__user{
+width: 50%;
+}

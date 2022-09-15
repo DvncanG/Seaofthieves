@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Pirates;
+    src: url(../assets/fonts/piratas.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: Pirates;
+}
+body{
+    width: 1500px;
+    margin: 0 auto;
+   background-color: black;
+}
+.main{
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../assets/images/youtube/fondo_youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main__header{
+    width: 100%;
+    background-color: rgb(255, 31, 31);
+}
+.div__img{
+    width: 200px;
+}
+.img__espacio{
+    width: 100%;
+    
+}
+.main__body{
+    width: 100%;
+}
+.main__iframe{
+    margin: 20px;
+    margin-left: 32%;
+}
+.main__centro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/images/youtube/centro.jpg);
+}
+.main__centroizquierda{
+    width: 40%;
+}.main__iframe2{
+    margin-left: 5%;
+}
+.main__centromedio{
+    width: 30%;
+    background-image: url(../assets/images/cartaPirata.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main__p{
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.main__centroderecha{
+    width: 30%;
+}
+.main__imagen{
+    width: 100%;
+}
+.main__footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/images/youtube/main_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main__footerizquierda{
+    width: 50%;
+}
+.main__imagenfooter{
+    width: 50%;
+    margin-left: 24%;
+}
+.main__footerderecha{
+    width: 50%;
+    margin-left: 10%;
+}

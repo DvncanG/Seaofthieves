@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: Pirates;
+    src: url(../assets/fonts/piratas.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: Pirates;
+}
+body{
+    width: 1500px;
+    margin: 0 auto;
+   background-color: black;
+}
+.main{
+    background-image: url("../assets/images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+.main__imagen{
+    width: 50%;
+    
+}
+.main__imgKraken{
+    width: 100%;
+}
+.main__historia{
+    width: 50%;
+    background-image: url(../assets/images/cartaPirata.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.div__historia{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+.div__pHistoria{
+    font-size: larger;
+    font-weight: bolder;
+}
